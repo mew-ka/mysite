@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+
+.vscode/
+pyvenv.cfg
+**/*.pyc
+lib/python3.*/site-packages/
+```
