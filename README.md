@@ -1,5 +1,15 @@
-my project
+## Проект блога на Python
 
-как запустить сервер
-python manage.py runserver 
+### Установка
+- установить pyenv
+- установить Python 3.10
+- запустить bin/setup
 
+### Команды
+- Запустить venv `poetry shell`
+- Запустить сервер `bin/server`
+
+### Deployed with fly.io
+- https://mysitefork.fly.dev/
+
+mewka123
