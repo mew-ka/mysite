@@ -12,13 +12,16 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 import os
 from pathlib import Path
+from dotenv import load_dotenv
+import sentry_sdk
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Setup Sentry
-import sentry_sdk
+# Import dotenv
+load_dotenv()
 
+# Setup Sentry
 sentry_sdk.init(
     dsn="https://48ccec878f36f93de601f45a21f78248@o4506463510790144.ingest.sentry.io/4506463510986752",
     # Set traces_sample_rate to 1.0 to capture 100%
