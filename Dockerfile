@@ -14,6 +14,9 @@ COPY pyproject.toml poetry.lock /code/
 RUN poetry config virtualenvs.create false
 RUN poetry install --only main --no-root --no-interaction
 COPY . /code
+
+ENV SECRET_KEY "hGOykd9pZgJSfwBSl3i4mZIIPTW7xnbayH4nSDMT2Mhm0nWtyy"
+
 RUN poetry run python manage.py makemigrations
 RUN poetry run python manage.py migrate
 RUN poetry run python manage.py collectstatic --noinput
