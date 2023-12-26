@@ -9,7 +9,6 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^5.0"
-django-yarnpkg = "^6.1.0"
 gunicorn = "^21.2.0"
 
 
