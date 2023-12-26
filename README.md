@@ -10,6 +10,6 @@
 - Запустить сервер `bin/server`
 
 ### Deployed with fly.io
-- https://mysitefork.fly.dev/
+- https://mysite-alina.fly.dev/
 
 mewka123
